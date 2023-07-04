@@ -1,0 +1,1636 @@
+{
+  "af-south-1": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "af-south-1",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "626614931356.dkr.ecr.af-south-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-af-south-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "af-south-1",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "626614931356.dkr.ecr.af-south-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-af-south-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "af-south-1",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "626614931356.dkr.ecr.af-south-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-af-south-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "af-south-1",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "626614931356.dkr.ecr.af-south-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-af-south-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "ap-south-1": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "ap-south-1",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-south-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-south-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "ap-south-1",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-south-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-south-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "ap-south-1",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-south-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-south-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "ap-south-1",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-south-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-south-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "eu-north-1": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "eu-north-1",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-north-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-north-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "eu-north-1",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-north-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-north-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "eu-north-1",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-north-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-north-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "eu-north-1",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-north-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-north-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "eu-west-3": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "eu-west-3",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-west-3.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-west-3",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "eu-west-3",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-west-3.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-west-3",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "eu-west-3",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-west-3.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-west-3",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "eu-west-3",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-west-3.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-west-3",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "eu-west-2": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "eu-west-2",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-west-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-west-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "eu-west-2",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-west-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-west-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "eu-west-2",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-west-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-west-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "eu-west-2",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-west-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-west-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "eu-west-1": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "eu-west-1",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-west-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-west-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "eu-west-1",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-west-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-west-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "eu-west-1",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-west-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-west-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "eu-west-1",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-west-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-west-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "ap-northeast-3": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "ap-northeast-3",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "364406365360.dkr.ecr.ap-northeast-3.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-northeast-3",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "ap-northeast-3",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "364406365360.dkr.ecr.ap-northeast-3.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-northeast-3",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "ap-northeast-3",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "364406365360.dkr.ecr.ap-northeast-3.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-northeast-3",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "ap-northeast-3",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "364406365360.dkr.ecr.ap-northeast-3.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-northeast-3",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "ap-northeast-2": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "ap-northeast-2",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-northeast-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-northeast-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "ap-northeast-2",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-northeast-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-northeast-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "ap-northeast-2",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-northeast-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-northeast-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "ap-northeast-2",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-northeast-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-northeast-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "ap-northeast-1": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "ap-northeast-1",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-northeast-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-northeast-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "ap-northeast-1",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-northeast-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-northeast-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "ap-northeast-1",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-northeast-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-northeast-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "ap-northeast-1",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-northeast-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-northeast-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "ca-central-1": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "ca-central-1",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.ca-central-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ca-central-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "ca-central-1",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.ca-central-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ca-central-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "ca-central-1",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.ca-central-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ca-central-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "ca-central-1",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.ca-central-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ca-central-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "sa-east-1": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "sa-east-1",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.sa-east-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-sa-east-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "sa-east-1",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.sa-east-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-sa-east-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "sa-east-1",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.sa-east-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-sa-east-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "sa-east-1",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.sa-east-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-sa-east-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "ap-east-1": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "ap-east-1",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "871362719292.dkr.ecr.ap-east-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-east-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "ap-east-1",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "871362719292.dkr.ecr.ap-east-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-east-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "ap-east-1",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "871362719292.dkr.ecr.ap-east-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-east-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "ap-east-1",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "871362719292.dkr.ecr.ap-east-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-east-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "ap-southeast-1": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "ap-southeast-1",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-southeast-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-southeast-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "ap-southeast-1",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-southeast-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-southeast-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "ap-southeast-1",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-southeast-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-southeast-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "ap-southeast-1",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-southeast-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-southeast-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "ap-southeast-2": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "ap-southeast-2",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-southeast-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-southeast-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "ap-southeast-2",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-southeast-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-southeast-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "ap-southeast-2",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-southeast-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-southeast-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "ap-southeast-2",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.ap-southeast-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-ap-southeast-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "eu-central-1": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "eu-central-1",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-central-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-central-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "eu-central-1",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-central-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-central-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "eu-central-1",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-central-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-central-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "eu-central-1",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.eu-central-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-eu-central-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "us-east-1": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "us-east-1",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.us-east-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-east-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "us-east-1",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.us-east-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-east-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "us-east-1",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.us-east-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-east-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "us-east-1",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.us-east-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-east-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "us-east-2": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "us-east-2",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.us-east-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-east-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "us-east-2",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.us-east-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-east-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "us-east-2",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.us-east-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-east-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "us-east-2",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.us-east-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-east-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "us-west-1": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "us-west-1",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.us-west-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-west-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "us-west-1",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.us-west-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-west-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "us-west-1",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.us-west-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-west-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "us-west-1",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.us-west-1.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-west-1",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  },
+  "us-west-2": {
+    "huggingface-llm-falcon-40b-bf16": {
+      "region": "us-west-2",
+      "model_id": "huggingface-llm-falcon-40b-bf16",
+      "model_image": "763104351884.dkr.ecr.us-west-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-west-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-40b-instruct-bf16": {
+      "region": "us-west-2",
+      "model_id": "huggingface-llm-falcon-40b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.us-west-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-west-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-40b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "4",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-bf16": {
+      "region": "us-west-2",
+      "model_id": "huggingface-llm-falcon-7b-bf16",
+      "model_image": "763104351884.dkr.ecr.us-west-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-west-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    },
+    "huggingface-llm-falcon-7b-instruct-bf16": {
+      "region": "us-west-2",
+      "model_id": "huggingface-llm-falcon-7b-instruct-bf16",
+      "model_image": "763104351884.dkr.ecr.us-west-2.amazonaws.com/huggingface-pytorch-tgi-inference:2.0.0-tgi0.8.2-gpu-py39-cu118-ubuntu20.04",
+      "model_bucket": "jumpstart-cache-prod-us-west-2",
+      "model_data_uri": "huggingface-infer/prepack/v1.0.0/infer-prepack-huggingface-llm-falcon-7b-instruct-bf16.tar.gz",
+      "env_variables": {
+        "SAGEMAKER_PROGRAM": "inference.py",
+        "SAGEMAKER_SUBMIT_DIRECTORY": "/opt/ml/model/code",
+        "SAGEMAKER_CONTAINER_LOG_LEVEL": "20",
+        "SAGEMAKER_MODEL_SERVER_TIMEOUT": "3600",
+        "ENDPOINT_SERVER_TIMEOUT": 3600,
+        "MODEL_CACHE_ROOT": "/opt/ml/model",
+        "SAGEMAKER_ENV": "1",
+        "HF_MODEL_ID": "/opt/ml/model",
+        "SM_NUM_GPUS": "1",
+        "MAX_INPUT_LENGTH": "1024",
+        "MAX_TOTAL_TOKENS": "2048",
+        "SAGEMAKER_MODEL_SERVER_WORKERS": 1
+      }
+    }
+  }
+}
